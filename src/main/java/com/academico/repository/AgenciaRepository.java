@@ -1,0 +1,9 @@
+package com.academico.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.academico.model.Agencia;
+
+public interface AgenciaRepository extends JpaRepository<Agencia, Long>{
+
+}
